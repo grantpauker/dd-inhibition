@@ -2,10 +2,10 @@
 #include <vector>
 #include <cmath>
 #include "arena.hpp"
+#include "constants.hpp"
 
 int main()
 {
-
     sf::RenderWindow window(sf::VideoMode(arena_width, arena_height), "Density Dependers");
     window.setFramerateLimit(60);
     srand(time(NULL));
